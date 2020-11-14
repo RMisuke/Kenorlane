@@ -1,0 +1,9 @@
+<local:MyCard Title="Kenolane测试版Mod服客户端" Margin="0,0,0,15"> 
+    <StackPanel Margin="10,30,23,15"> 
+        <local:MyHint Text="此客户端为服务器测试端" /> 
+        <TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12"  
+                    Text="服务器游戏版本1.12.2" /> 
+<local:MyButton Margin="0,8,0,0" Width="250" Height="35"
+                 Text="复制服务器IP" EventType="复制文本" EventData="cn-zj-bgp.sakurafrp.com:39626" ToolTip="点击复制服务器IP" />
+   </StackPanel> 
+</local:MyCard> 
